@@ -1,0 +1,17 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  mat-form-field{
+    width: 40% !important;
+}
+h2{
+    color: rgb(48, 4, 90);
+}
+.action-btns{
+    display: flex;
+    margin-top: 10px;
+     gap: 20px;
+}

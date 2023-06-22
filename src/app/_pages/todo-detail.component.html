@@ -1,0 +1,15 @@
+<h2>TO-DO Details</h2>
+<form class="parent" style="justify-content: center;">
+    <mat-form-field>
+        <input matInput placeholder="Title" id="title" [(ngModel)]="element.title" name="title">
+    </mat-form-field>
+    <br>
+    <mat-form-field class="">
+        <input matInput placeholder="Status" id="status" [(ngModel)]="element.completed" name="status">
+    </mat-form-field>
+    <br>
+    <div class="action-btns">
+    <button mat-raised-button color="accent" (click)="onSubmit()">Update</button>
+    <button mat-raised-button color="warn" (click)="delete()">Delete</button>
+</div>
+</form>
